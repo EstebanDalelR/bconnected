@@ -1,10 +1,10 @@
 import Layout from '../components/MyLayout.js'
 import Jumbotron from '../components/Jumbotron.js'
 
-export default function Index () {
+export default function ModeloDeNegocio () {
   return (
     <Layout>
-      <Jumbotron />
+      <Jumbotron image='modeloDeNegocio.png' />
     </Layout>
   )
 }
