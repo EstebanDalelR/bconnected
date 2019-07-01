@@ -1,67 +1,33 @@
-import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 
-function getPosts () {
-  return [
-    { id: 'hello-nextjs', title: 'Hello Next.js' },
-    { id: 'learn-nextjs', title: 'Learn Next.js is awesome' },
-    { id: 'deploy-nextjs', title: 'Deploy apps with ZEIT' }
-  ]
-}
-
-function PostLink ({ post }) {
-  return (
-    <li>
-      <Link as={`/p/${post.id}`} href={`/post?title=${post.title}`}>
-        <a>{post.title}</a>
-      </Link>
-      <style jsx>{`
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
-        a {
-          text-decoration: none;
-          color: blue;
-          font-family: 'Arial';
-        }
-        a:hover {
-          opacity: 0.6;
-        }
-      `}</style>
-    </li>
-  )
-}
+import Layout from '../components/MyLayout.js'
+import Jumbotron from '../components/Jumbotron.js'
 
 export default function Index () {
   return (
     <Layout>
-      <h1>My Blog</h1>
-      <ul>
-        {getPosts().map(post => (
-          <PostLink key={post.id} post={post} />
-        ))}
-      </ul>
+      <Jumbotron />
       <style jsx>{`
-        h1,
-        a {
+        h3 {
           font-family: 'Arial';
-        }
-        ul {
-          padding: 0;
-        }
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
-        a {
           text-decoration: none;
-          color: blue;
+          color: white;
+          padding-left: auto;
+          padding-right: auto;
         }
-        a:hover {
-          opacity: 0.6;
+        div {
+          background: black;  
+          text-align: center;
         }
       `}</style>
+      <div>
+        <h3>
+          Somos los mejores conectando oportunidades de negocio
+        </h3>
+      </div>
+      <Link href='/portafolio'>
+        <img src='static/images/portfolio.png' width='100%' />
+      </Link>
     </Layout>
   )
 }
