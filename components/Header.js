@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import NavLinks from './navLinks'
 
 const linkStyle = {
   marginRight: 15
@@ -27,7 +28,7 @@ export default function Header () {
           opacity: 0.6;
         }
         div {
-          background: black;
+          background: black; 
         }
       `}</style>
       <Link href='/'>
@@ -35,21 +36,7 @@ export default function Header () {
           <img src='static/images/logoWhite.png' height='50px' />
         </a>
       </Link>
-      <Link href='/'>
-        <a style={linkStyle}>Inicio</a>
-      </Link>
-      <Link href='/portafolio'>
-        <a style={linkStyle}>Portafolio</a>
-      </Link>
-      <Link href='/modeloDeNegocio'>
-        <a style={linkStyle}>Modelo de Negocio</a>
-      </Link>
-      <Link href='/empresas'>
-        <a style={linkStyle}>Empresas</a>
-      </Link>
-      <Link href='/fondeadores'>
-        <a style={linkStyle}>Fondeadores</a>
-      </Link>
+      <NavLinks />
     </div>
   )
 }
