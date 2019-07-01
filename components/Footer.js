@@ -4,7 +4,7 @@ const linkStyle = {
   marginRight: 15
 }
 
-export default function Header () {
+export default function Footer () {
   return (
     <div>
       <style jsx>{`
@@ -32,23 +32,8 @@ export default function Header () {
       `}</style>
       <Link href='/'>
         <a style={linkStyle}>
-          <img src='static/images/logoWhite.png' height='50px' />
+          <img src='static/images/footer.png' width='100%' />
         </a>
-      </Link>
-      <Link href='/'>
-        <a style={linkStyle}>Inicio</a>
-      </Link>
-      <Link href='/portafolio'>
-        <a style={linkStyle}>Portafolio</a>
-      </Link>
-      <Link href='/modeloDeNegocio'>
-        <a style={linkStyle}>Modelo de Negocio</a>
-      </Link>
-      <Link href='/empresas'>
-        <a style={linkStyle}>Empresas</a>
-      </Link>
-      <Link href='/fondeadores'>
-        <a style={linkStyle}>Fondeadores</a>
       </Link>
     </div>
   )
