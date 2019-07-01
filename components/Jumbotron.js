@@ -1,5 +1,5 @@
-export default function Jumbotron () {
+export default function Jumbotron (props) {
   return (
-    <img src='static/images/somos.png' width='100%' />
+    <img src={`static/images/${props.image ? props.image : 'somos.png'}`} width='100%' />
   )
 }
