@@ -14,6 +14,9 @@ export default function SocialIcons () {
       <a href='https://www.facebook.com/B-connectedco-410423266231075/'>
         <img height='40px' src='static/icons/facebook.png' />
       </a>
+      <a href='https://twitter.com/b_connectedco'>
+        <img height='50px' src='static/icons/twitter.png' />
+      </a>
       <a href='mailto:info@b-connected.co'>
         <img height='40px' src='static/icons/mail.png' style={{ filter: 'invert(1)' }} />
       </a>
