@@ -20,14 +20,9 @@ export default function Index () {
           text-align: center;
         }
       `}</style>
-      <div>
-        <h3>
-          Somos los mejores conectando oportunidades de negocio
-        </h3>
-      </div>
-      <Link href='/portafolio'>
+      <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download>
         <img src='static/images/portfolio.png' width='100%' />
-      </Link>
+      </a>
     </Layout>
   )
 }
