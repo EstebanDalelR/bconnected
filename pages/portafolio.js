@@ -4,7 +4,9 @@ import Jumbotron from '../components/Jumbotron.js'
 export default function Portafolio () {
   return (
     <Layout image={'footerPortafolio.png'}>
-      <Jumbotron image='portfolio.png' />
+      <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download>
+        <Jumbotron image='portfolio.png' />
+      </a>
     </Layout>
   )
 }
