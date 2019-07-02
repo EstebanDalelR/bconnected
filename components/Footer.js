@@ -1,8 +1,5 @@
-import Link from 'next/link'
-
-const linkStyle = {
-  marginRight: 15
-}
+import SocialIcons from './socialIcons'
+import FooterIcon from './footerIcon'
 
 export default function Footer (props) {
   return (
@@ -12,29 +9,20 @@ export default function Footer (props) {
         a {
           font-family: 'Arial';
         }
-        ul {
-          padding: 0;
-        }
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
         a {
           text-decoration: none;
           color: white;
         }
         a:hover {
-          opacity: 0.6;
+          opacity: 0.9;
         }
         div {
-          background: black;
+          background-image: url(static/images/${props.image ? props.image : 'footerIndex.png'});
+          background-color: darkgrey;
         }
       `}</style>
-      <Link href='/'>
-        <a style={linkStyle}>
-          <img src={`static/images/${props.image ? props.image : 'somos.png'}`} width='100%' />
-        </a>
-      </Link>
+      <FooterIcon />
+      <SocialIcons />
     </div>
   )
 }
