@@ -42,6 +42,7 @@ export default function NavLinks () {
         <Link href='/fondeadores'>
           <a style={linkStyle}>Fondeadores</a>
         </Link>
+        <a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a>
       </div>
     </>
   )
