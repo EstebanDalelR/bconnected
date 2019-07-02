@@ -24,7 +24,7 @@ export default function NavLinks () {
       <div>
         <Link href='/'>
           <a style={{ flexGrow: 2, padding: '2px' }}>
-            <img src='static/images/logoWhite.png' height='50px' />
+            <img src='static/images/logoHorizontalWhite.png' height='50px' />
           </a>
         </Link>
         <Link href='/'>
