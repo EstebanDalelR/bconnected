@@ -1,7 +1,9 @@
 import Link from 'next/link'
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  paddingTop: '1em',
+  fontWeight: 'bold'
 }
 
 export default function NavLinks () {
@@ -10,7 +12,8 @@ export default function NavLinks () {
       <style jsx>{`
         div {
           background: black;
-          text-align: right;
+          display: flex;
+          justify-content: flex-end;
         }
         a {
           text-decoration: none;
@@ -19,7 +22,11 @@ export default function NavLinks () {
         }
       `}</style>
       <div>
-
+        <Link href='/'>
+          <a style={{ flexGrow: 2, padding: '2px' }}>
+            <img src='static/images/logoWhite.png' height='50px' />
+          </a>
+        </Link>
         <Link href='/'>
           <a style={linkStyle}>Inicio</a>
         </Link>

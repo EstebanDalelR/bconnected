@@ -31,11 +31,6 @@ export default function Header () {
           background: black; 
         }
       `}</style>
-      <Link href='/'>
-        <a style={linkStyle}>
-          <img src='static/images/logoWhite.png' height='50px' />
-        </a>
-      </Link>
       <NavLinks />
     </div>
   )
