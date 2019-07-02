@@ -3,7 +3,7 @@ import Jumbotron from '../components/Jumbotron.js'
 
 export default function ModeloDeNegocio () {
   return (
-    <Layout>
+    <Layout image={'footerModeloDeNegocio.png'}>
       <Jumbotron image='modeloDeNegocio.png' />
     </Layout>
   )

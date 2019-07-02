@@ -3,7 +3,7 @@ import Jumbotron from '../components/Jumbotron.js'
 
 export default function Portafolio () {
   return (
-    <Layout>
+    <Layout image={'footerPortafolio.png'}>
       <Jumbotron image='portfolio.png' />
     </Layout>
   )

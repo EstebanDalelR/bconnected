@@ -3,7 +3,7 @@ import Jumbotron from '../components/Jumbotron.js'
 
 export default function fondeadores () {
   return (
-    <Layout>
+    <Layout image={'footerFondeadores.png'}>
       <Jumbotron image='fondeadores.png' />
     </Layout>
   )

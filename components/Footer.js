@@ -4,7 +4,7 @@ const linkStyle = {
   marginRight: 15
 }
 
-export default function Footer () {
+export default function Footer (props) {
   return (
     <div>
       <style jsx>{`
@@ -32,7 +32,7 @@ export default function Footer () {
       `}</style>
       <Link href='/'>
         <a style={linkStyle}>
-          <img src='static/images/footer.png' width='100%' />
+          <img src={`static/images/${props.image ? props.image : 'somos.png'}`} width='100%' />
         </a>
       </Link>
     </div>

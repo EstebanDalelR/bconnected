@@ -5,7 +5,7 @@ import Jumbotron from '../components/Jumbotron.js'
 
 export default function Index () {
   return (
-    <Layout>
+    <Layout image={'footerIndex.png'}>
       <Jumbotron />
       <style jsx>{`
         h3 {
