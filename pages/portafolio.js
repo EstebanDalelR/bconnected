@@ -14,11 +14,16 @@ export default function Portafolio () {
   }
   return (
     <Layout image={'footerPortafolio.png'}>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap' rel='stylesheet' />
       <style jsx>{`
         p {
           text-decoration: none;
-          font-family: 'Arial';
+          font-family: 'Monserrat';
           color: white;
+        }
+        label {
+          color: white;
+          font-family: 'Monserrat';
         }
         h2 {
           text-decoration: none;
@@ -52,7 +57,7 @@ export default function Portafolio () {
             placeholder='Email' />
         </div>
         <div>
-          <label for='terms'>Acepta política de uso de datos</label>
+          <label htmlFor='terms'>Acepta política de uso de datos</label>
           <input
             type='radio'
             name='terms'
