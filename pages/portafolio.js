@@ -6,6 +6,7 @@ import Jumbotron from '../components/Jumbotron.js'
 export default function Portafolio () {
   const [personName, setPersonName] = useState('')
   const [personMail, setPersonMail] = useState('')
+  const [acceptTerms, setAcceptTerms] = useState(false)
   function sendData () {
     let goog = `https://script.google.com/macros/s/AKfycbwNAzJIdi2Yu7tGktsL9uPu8L6stCtcTJ188VIvz_e4ENAum75d/exec?Nombre=${personName}&Email=${personMail}`
     fetch(goog)
@@ -49,7 +50,17 @@ export default function Portafolio () {
             value={personMail}
             placeholder='Email' />
         </div>
-        <button onClick={sendData}>Enviar</button>
+        <div>
+          <label for='terms'>Acepta política de uso de datos</label>
+          <input
+            type='radio'
+            name='terms'
+            id='terms'
+            onChange={e => setAcceptTerms(true)}
+            value={acceptTerms}
+          />
+        </div>
+        <button onClick={sendData} disabled={!acceptTerms}>Enviar</button>
       </div>
       <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download>
         <Jumbotron image='portfolio.png' />
