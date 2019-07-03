@@ -10,6 +10,7 @@ export default function Portafolio () {
   function sendData () {
     let goog = `https://script.google.com/macros/s/AKfycbwNAzJIdi2Yu7tGktsL9uPu8L6stCtcTJ188VIvz_e4ENAum75d/exec?Nombre=${personName}&Email=${personMail}`
     fetch(goog)
+    document.getElementById('downloadPortfolio').click()
   }
   return (
     <Layout image={'footerPortafolio.png'}>
@@ -62,7 +63,7 @@ export default function Portafolio () {
         </div>
         <button onClick={sendData} disabled={!acceptTerms}>Enviar</button>
       </div>
-      <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download>
+      <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download id='downloadPortfolio'>
         <Jumbotron image='portfolio.png' />
       </a>
     </Layout>
