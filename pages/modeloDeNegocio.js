@@ -12,7 +12,7 @@ export default function ModeloDeNegocio () {
         }
         .contentHolder {
           background-image: linear-gradient(black, grey);
-          overfloW: auto;
+          overflow: auto;
         }
         @media screen and (max-width: 600px) {
           .imageDiv {
