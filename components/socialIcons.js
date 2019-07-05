@@ -1,25 +1,40 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 export default function SocialIcons () {
   return (
     <div>
       <style jsx>{`
-        div {
+        .icons {
           display: flex;
           justify-content: space-around;
           padding: 2%
         }
+        .privacy {
+          text-align: center;
+          color: white;
+          padding: 1%;
+        }
       `}</style>
-      <a href='https://www.instagram.com/bconnectedco/'>
-        <img height='40px' src='static/icons/instagram.png' style={{ filter: 'invert(1)' }} />
-      </a>
-      <a href='https://www.facebook.com/B-connectedco-410423266231075/'>
-        <img height='40px' src='static/icons/facebook.png' />
-      </a>
-      <a href='https://twitter.com/b_connectedco'>
-        <img height='50px' src='static/icons/twitter.png' />
-      </a>
-      <a href='mailto:info@b-connected.co'>
-        <img height='40px' src='static/icons/mail.png' style={{ filter: 'invert(1)' }} />
-      </a>
+      <div className='icons'>
+        <a href='https://www.instagram.com/bconnectedco/'>
+          <FontAwesomeIcon icon={faInstagram} color='white' size='3x' />
+        </a>
+        <a href='https://www.facebook.com/B-connectedco-410423266231075/'>
+          <FontAwesomeIcon icon={faFacebook} color='white' size='3x' />
+        </a>
+        <a href='https://twitter.com/b_connectedco'>
+          <FontAwesomeIcon icon={faTwitter} color='white' size='3x' />
+        </a>
+        <a href='mailto:info@b-connected.co'>
+          <FontAwesomeIcon icon={faEnvelope} color='white' size='3x' />
+        </a>
+      </div>
+      <div className='privacy'>
+        <p>
+        B-Connected. Todos los Derechos reservados.
+        </p>
+      </div>
     </div>
   )
 }
