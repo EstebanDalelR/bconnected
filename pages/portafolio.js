@@ -14,7 +14,6 @@ export default function Portafolio () {
   }
   return (
     <Layout image={'footerPortafolio.png'}>
-      <link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap' rel='stylesheet' />
       <style jsx>{`
         p {
           text-decoration: none;
@@ -31,9 +30,22 @@ export default function Portafolio () {
           color: white;
         }
         .formHolder {
-          background-image: linear-gradient(black, grey);
           overflow: auto;
           text-align: center;
+          background-image: linear-gradient(black, grey);
+        }
+        .formHolder div{
+          margin: 1%;
+        }
+        button {
+          font-weight: bold;
+          color: white;
+          background-color: darkgrey;
+          padding: 1%;
+          border-radius: 10px;
+        }
+        button:hover {
+          background-color: grey;
         }
       `}</style>
       <div className='formHolder'>
@@ -57,16 +69,18 @@ export default function Portafolio () {
             placeholder='Email' />
         </div>
         <div>
-          <label htmlFor='terms'>Acepta política de uso de datos</label>
+          <label htmlFor='terms'>Acepto la política de uso de datos</label>
           <input
             type='radio'
             name='terms'
             id='terms'
-            onChange={e => setAcceptTerms(true)}
+            onClick={e => setAcceptTerms(!acceptTerms)}
             value={acceptTerms}
           />
         </div>
-        <button onClick={sendData} disabled={!acceptTerms}>Enviar</button>
+        <div>
+          <button onClick={sendData} disabled={!acceptTerms}>Enviar</button>
+        </div>
       </div>
       <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download id='downloadPortfolio'>
         <Jumbotron image='portfolio.png' />
