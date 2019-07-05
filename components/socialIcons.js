@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
+
 export default function SocialIcons () {
   return (
     <div>
@@ -14,6 +16,9 @@ export default function SocialIcons () {
           text-align: center;
           color: white;
           padding: 1%;
+        }
+        a {
+          color: white;
         }
       `}</style>
       <div className='icons'>
@@ -29,6 +34,13 @@ export default function SocialIcons () {
         <a href='mailto:info@b-connected.co'>
           <FontAwesomeIcon icon={faEnvelope} color='white' size='3x' />
         </a>
+      </div>
+      <div className='privacy'>
+        <Link href="/politicaDePrivacidad">
+          <a>
+          Política de Privacidad
+          </a>
+        </Link>
       </div>
       <div className='privacy'>
         <p>
