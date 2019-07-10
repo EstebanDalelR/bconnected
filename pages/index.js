@@ -21,7 +21,9 @@ export default function Index () {
         }
       `}</style>
       <Link href='/portafolio'>
-        <img src='static/images/portfolio.png' width='100%' />
+        <a>
+          <img src='static/images/portfolio.png' width='100%' />
+        </a>
       </Link>
     </Layout>
   )
