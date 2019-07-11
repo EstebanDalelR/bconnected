@@ -47,6 +47,16 @@ export default function Portafolio () {
         button:hover {
           background-color: grey;
         }
+        input {
+          background-color: gray;
+          border-radius: 4px;
+          height: 2em;
+          color: white;
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+        label {
+          height: 2em;
+        }
       `}</style>
       <div className='formHolder'>
         <h2>Para recibir una copia mensual de este documento, déjenos sus datos.</h2>
