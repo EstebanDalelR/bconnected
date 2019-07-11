@@ -14,7 +14,7 @@ export default function Layout (props) {
       <style jsx global>{`
       @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
         div {
-          font-family: 'Monserrat', cursive;
+          font-family: 'Monserrat', sans-serif;
         }
       `}</style>
       <style jsx>{`

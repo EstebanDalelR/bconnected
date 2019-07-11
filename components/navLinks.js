@@ -18,7 +18,7 @@ export default function NavLinks () {
         }
         a {
           text-decoration: none;
-          font-family: 'Monserrat', cursive;
+          font-family: 'Monserrat', sans-serif;
           color: white;
         }
       `}</style>
