@@ -13,7 +13,7 @@ export default function ModeloDeNegocio () {
           text-align: justify;
         }
         .contentHolder {
-          background-image: linear-gradient(black, grey);
+          background-color: grey;
           overflow: auto;
         }
         @media screen and (max-width: 600px) {
@@ -37,10 +37,10 @@ export default function ModeloDeNegocio () {
           }
         }
       `}</style>
-        <div className='imageDiv'>
+        <div>
           <img src='static/images/modeloDeNegocio.png' width='100%' />
         </div>
-        <div className='modelText'>
+        <div >
           <p>
         B - CONNECTED conecta por medio de su base de datos actores económicos como: Fondeadores, Inversionistas,  Empresarios, Empresas, Emprendedores, entre otros, para el desarrollo de negocios exitosos.
           </p>
