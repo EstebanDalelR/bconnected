@@ -11,6 +11,12 @@ export default function Layout (props) {
         <link rel='icon' type='image/x-icon' href='static/favicon/favicon.ico' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
+      <style jsx global>{`
+      @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+        div {
+          font-family: 'Monserrat', cursive;
+        }
+      `}</style>
       <style jsx>{`
         div {
           line-height: 0;
