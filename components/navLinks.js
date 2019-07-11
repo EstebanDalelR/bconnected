@@ -9,8 +9,8 @@ const linkStyle = {
 export default function NavLinks () {
   return (
     <>
-      <link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap' rel='stylesheet' />
       <style jsx>{`
+      @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
         div {
           background: black;
           display: flex;
@@ -18,7 +18,7 @@ export default function NavLinks () {
         }
         a {
           text-decoration: none;
-          font-family: 'Monserrat';
+          font-family: 'Monserrat', cursive;
           color: white;
         }
       `}</style>
