@@ -20,7 +20,7 @@ export default function Empresas () {
           color: white;
         }
         div {
-          background-image: linear-gradient(black, grey);
+          background-color: black;
           overflow: auto;
           padding: 1%
         }`

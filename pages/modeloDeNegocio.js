@@ -13,7 +13,7 @@ export default function ModeloDeNegocio () {
           text-align: justify;
         }
         .contentHolder {
-          background-color: grey;
+          background-color: black;
           overflow: auto;
         }
         @media screen and (max-width: 600px) {

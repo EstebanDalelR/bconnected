@@ -13,7 +13,7 @@ export default function PoliticaDePrivacidad () {
           padding: 1%;
         }
         .contentHolder {
-          background-image: linear-gradient(black, grey);
+          background-color: black;
           overflow: auto;
         }`
       }</style>
