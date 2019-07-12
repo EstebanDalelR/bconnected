@@ -32,7 +32,7 @@ export default function Portafolio () {
         .formHolder {
           overflow: auto;
           text-align: center;
-          background-image: linear-gradient(black, grey);
+          background-color: black;
         }
         .formHolder div{
           margin: 1%;
@@ -82,7 +82,7 @@ export default function Portafolio () {
           <button onClick={sendData} disabled={!acceptTerms}>Enviar</button>
         </div>
       </div>
-      <a href='static/pdf/PortafolioBConnectedJUN19.pdf' download id='downloadPortfolio'>
+      <a href='static/pdf/PortafolioBConnectedJUL19.pdf' download id='downloadPortfolio'>
         <Jumbotron image='portfolio.png' />
       </a>
     </Layout>
