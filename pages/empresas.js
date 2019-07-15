@@ -19,13 +19,26 @@ export default function Empresas () {
           padding: 1%;
           color: white;
         }
-        div {
-          background-color: black;
-          overflow: auto;
-          padding: 1%
+        @media screen and (max-width: 600px) {
+          div {
+            background-image: url(static/images/empresasMovil.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: auto;    
+            padding: 1%
+          }
+        }
+        @media screen and (min-width: 600px) {  
+          div {
+            background-image: url(static/images/empresas.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-attachment: scroll;  
+            overflow: auto;
+            padding: 1%
+          }
         }`
       }</style>
-      <Jumbotron image='empresas.png' />
       <div>
         <h2>
         POLITICA DE B- CONNECTED PARA NEGOCIOS
