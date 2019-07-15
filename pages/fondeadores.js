@@ -28,7 +28,7 @@ export default function fondeadores () {
         }
         @media screen and (min-width: 600px) {  
           div {
-            background-image: url(static/images/fondeadores.png);
+            background-image: url(static/images/web/fondeadores.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: right bottom;

@@ -30,7 +30,7 @@ export default function Empresas () {
         }
         @media screen and (min-width: 600px) {  
           div {
-            background-image: url(static/images/empresas.png);
+            background-image: url(static/images/web/empresas.png);
             background-repeat: no-repeat;
             background-position: right bottom;
             background-size: cover;
