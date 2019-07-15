@@ -17,7 +17,7 @@ export default function Footer (props) {
           opacity: 0.9;
         }
         div {
-          background-image: url(static/images/${props.image ? props.image : 'footerIndex.png'});
+          background-image: url(static/images/footer/${props.image ? props.image : 'footerIndex.png'});
           background-color: darkgrey;
           background-size: cover;
           background-repeat: no-repeat;
