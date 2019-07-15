@@ -8,39 +8,40 @@ export default function ModeloDeNegocio () {
         <style jsx>{`
         p {
           text-decoration: none;
-          font-family: 'Arial';
           color: white;
           text-align: justify;
+        }
+        h2 {
+          color: white;
         }
         .contentHolder {
           background-color: black;
           overflow: auto;
         }
         @media screen and (max-width: 600px) {
-          .imageDiv {
-            width: 100%;
-          }
-          .modelText {
-            padding: 1%;
-            width: 100%;
+          div {
+            background-image: url(static/images/modeloDeNegocioMovil.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: auto;    
+            padding: 1%
           }
         }
         @media screen and (min-width: 600px) {  
-          .imageDiv {
-            width: 40%;
-            float: left;
-          }
-          .modelText {
-            width: 50%;
-            float: right;
-            padding: 2%;
+          div {
+            background-image: url(static/images/modeloDeNegocio.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: cover;
+            background-attachment: scroll;  
+            overflow: auto;
+            padding: 1%
           }
         }
       `}</style>
-        <div>
-          <img src='static/images/modeloDeNegocio.png' width='100%' />
-        </div>
-        <div >
+        <h2>
+      MODELO DE NEGOCIO DE B- CONNECTED
+    </h2>
           <p>
         B - CONNECTED conecta por medio de su base de datos actores económicos como: Fondeadores, Inversionistas,  Empresarios, Empresas, Emprendedores, entre otros, para el desarrollo de negocios exitosos.
           </p>
@@ -57,7 +58,6 @@ export default function ModeloDeNegocio () {
         Para mayor información puede contactarse con nosotros al mail: <a href='mailto:info@b-connected.co'>info@b-connected.co</a>
           </p>
         </div>
-      </div>
     </Layout>
   )
 }

@@ -30,6 +30,7 @@ export default function fondeadores () {
           div {
             background-image: url(static/images/fondeadores.png);
             background-repeat: no-repeat;
+            background-size: cover;
             background-position: right bottom;
             background-attachment: scroll;  
             overflow: auto;

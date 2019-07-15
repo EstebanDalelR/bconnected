@@ -33,6 +33,7 @@ export default function Empresas () {
             background-image: url(static/images/empresas.png);
             background-repeat: no-repeat;
             background-position: right bottom;
+            background-size: cover;
             background-attachment: scroll;  
             overflow: auto;
             padding: 1%
