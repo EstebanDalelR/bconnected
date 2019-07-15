@@ -1,4 +1,7 @@
 import Link from 'next/link'
+import ResponsiveMenu from 'react-responsive-navbar';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const linkStyle = {
   marginRight: 15,
@@ -21,30 +24,44 @@ export default function NavLinks () {
           font-family: 'Monserrat', sans-serif;
           color: white;
         }
+        img {
+          align: left
+        }
+        @media screen and (min-width: 600px) {
+          div {
+            display: inline-block
+          }
+        }
       `}</style>
-      <div>
+      <ResponsiveMenu
+        menuOpenButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' /> }
+        menuCloseButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' />}
+        changeMenuOn="600px"
+        menu={<>
         <Link href='/'>
           <a style={{ flexGrow: 2, padding: '2px' }}>
             <img src='static/images/logoHorizontalWhite.png' height='50px' />
           </a>
         </Link>
         <Link href='/'>
-          <a style={linkStyle}>Inicio</a>
+          <div><a style={linkStyle}>Inicio</a> </div>
         </Link>
         <Link href='/portafolio'>
-          <a style={linkStyle}>Portafolio</a>
+          <div><a style={linkStyle}>Portafolio</a> </div>
         </Link>
         <Link href='/modeloDeNegocio'>
-          <a style={linkStyle}>Modelo de Negocio</a>
+          <div><a style={linkStyle}>Modelo de Negocio</a> </div>
         </Link>
         <Link href='/empresas'>
-          <a style={linkStyle}>Empresas</a>
+          <div><a style={linkStyle}>Empresas</a> </div>
         </Link>
         <Link href='/fondeadores'>
-          <a style={linkStyle}>Fondeadores</a>
+          <div><a style={linkStyle}>Fondeadores</a> </div>
         </Link>
-        <a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a>
-      </div>
+        <div><a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a> </div>
+      </>
+      }
+      />
     </>
   )
 }
