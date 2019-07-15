@@ -92,7 +92,7 @@ export default function Portafolio () {
         </div>
       </div>
       <a href='static/pdf/PortafolioBConnectedJUL19.pdf' download id='downloadPortfolio'>
-        <Jumbotron image='portfolio.png' />
+        <Jumbotron image='web/portfolio.png' />
       </a>
     </Layout>
   )

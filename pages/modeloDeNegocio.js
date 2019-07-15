@@ -14,28 +14,29 @@ export default function ModeloDeNegocio () {
         h2 {
           color: white;
         }
-        .contentHolder {
-          background-color: black;
-          overflow: auto;
-        }
+
         @media screen and (max-width: 600px) {
           div {
-            background-image: url(static/images/modeloDeNegocioMovil.png);
+            background-image: url(static/images/mobile/modeloDeNegocioMovil.png);
             background-repeat: no-repeat;
             background-size: cover;
             overflow: auto;    
             padding: 1%
           }
+
         }
         @media screen and (min-width: 600px) {  
           div {
-            background-image: url(static/images/modeloDeNegocio.png);
+            background-image: url(static/images/web/modeloDeNegocio.png);
             background-repeat: no-repeat;
             background-position: right bottom;
             background-size: cover;
             background-attachment: scroll;  
             overflow: auto;
             padding: 1%
+          }
+          .contentHolder {
+            min-height: 400px;
           }
         }
       `}</style>

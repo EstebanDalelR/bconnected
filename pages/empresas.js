@@ -21,7 +21,7 @@ export default function Empresas () {
         }
         @media screen and (max-width: 600px) {
           div {
-            background-image: url(static/images/empresasMovil.png);
+            background-image: url(static/images/mobile/empresasMovil.png);
             background-repeat: no-repeat;
             background-size: cover;
             overflow: auto;    

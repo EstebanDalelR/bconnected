@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function fondeadores () {
   return (
     <Layout image={'footerFondeadores.png'}>
-            <style jsx>{`
+      <style jsx>{`
         p {
           text-decoration: none;
           font-family: 'Arial';
@@ -19,7 +19,7 @@ export default function fondeadores () {
         }
         @media screen and (max-width: 600px) {
           div {
-            background-image: url(static/images/fondeadoresMovil.png);
+            background-image: url(static/images/mobile/fondeadoresMovil.png);
             background-repeat: no-repeat;
             background-size: cover;
             overflow: auto;    
@@ -36,9 +36,12 @@ export default function fondeadores () {
             overflow: auto;
             padding: 1%
           }
+          .contentHolder {
+            min-height: 600px;
+          }
         }`
       }</style>
-      <div>
+      <div className="contentHolder">
     <h2>
       POLITICA DE B- CONNECTED PARA FONDEADORES
     </h2>
@@ -47,8 +50,6 @@ export default function fondeadores () {
     </p>
     <p>
       Todos los negocios en nuestro portafolio están brevemente resumidos y si desea mayor información puede solicitarla respondiendo nuestros correos o al mail info@b-connected.co con el nombre del proyecto del cual desea mayor información.
-    </p>
-    <p>
       Este será respondido con información mas detallada de la oportunidad y nuestro documento de indemnidad. Para agendar una reunión con los dueños del proyecto debe enviar el documento ( Adjunto PROXIMAMENTE  ) y horarios de disponibilidad de agenda.
     </p>
     <p>

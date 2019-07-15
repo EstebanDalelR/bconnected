@@ -39,7 +39,7 @@ export default function NavLinks () {
         changeMenuOn="600px"
         menu={<>
         <Link href='/'>
-          <a style={{ flexGrow: 2, padding: '2px' }}>
+          <a style={{ flexGrow: 2, padding: '2px', alignSelf:"left" }}>
             <img src='static/images/logoHorizontalWhite.png' height='50px' />
           </a>
         </Link>
