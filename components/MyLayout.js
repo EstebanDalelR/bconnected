@@ -1,10 +1,9 @@
 import Header from './Header'
 import Footer from './Footer'
 import Head from 'next/head'
-import { FacebookProvider, CustomChat } from 'react-facebook';
+import { FacebookProvider, CustomChat } from 'react-facebook'
 
 export default function Layout (props) {
-
   return (
     <>
       <Head>
@@ -24,10 +23,9 @@ export default function Layout (props) {
           line-height: 0;
         }
       `}</style>
-      <FacebookProvider appId="634273627086292">
-        <CustomChat pageId="410423266231075" minimized={false}/>
-      </FacebookProvider>   
-
+      <FacebookProvider appId='634273627086292'>
+        <CustomChat pageId='410423266231075' minimized={false} />
+      </FacebookProvider>
 
       <Header />
       {props.children}

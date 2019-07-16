@@ -41,24 +41,24 @@ export default function ModeloDeNegocio () {
         }
       `}</style>
         <h2>
-      MODELO DE NEGOCIO DE B- CONNECTED
-    </h2>
-          <p>
-        B - CONNECTED conecta por medio de su base de datos actores económicos como: Fondeadores, Inversionistas,  Empresarios, Empresas, Emprendedores, entre otros, para el desarrollo de negocios exitosos.
-          </p>
-          <p>
-        Compilamos mensualmente oportunidades de negocio en un portafolio que es socializado junto con información de interés para el desarrollo de negocios entre nuestra base de datos (si desea suscribirse puede hacerlo <Link href='/portafolio'>siguiendo este link</Link>)
-          </p>
-          <p>
-        Si por medio de nuestra conexión se realiza, celebra o fondea un negocio, B- CONNECTED cobrará el fee descrito en el contrato a la empresa receptora de los fondos. En ningún momento B- CONNECTED cobra ni presta un servicio al fondeador.
-          </p>
-          <p>
-        B - CONNECTED no estructura, asesora o realiza estudios, ni interviene en las negociaciones realizadas entre las partes conectadas, estas son de responsabilidad y competencia entre las partes.
-          </p>
-          <p>
-        Para mayor información puede contactarse con nosotros al mail: <a href='mailto:info@b-connected.co'>info@b-connected.co</a>
-          </p>
-        </div>
+          MODELO DE NEGOCIO DE B- CONNECTED
+        </h2>
+        <p>
+          B - CONNECTED conecta por medio de su base de datos actores económicos como: Fondeadores, Inversionistas,  Empresarios, Empresas, Emprendedores, entre otros, para el desarrollo de negocios exitosos.
+        </p>
+        <p>
+          Compilamos mensualmente oportunidades de negocio en un portafolio que es socializado junto con información de interés para el desarrollo de negocios entre nuestra base de datos (si desea suscribirse puede hacerlo <Link href='/portafolio'>siguiendo este link</Link>)
+        </p>
+        <p>
+          Si por medio de nuestra conexión se realiza, celebra o fondea un negocio, B- CONNECTED cobrará el fee descrito en el contrato a la empresa receptora de los fondos. En ningún momento B- CONNECTED cobra ni presta un servicio al fondeador.
+        </p>
+        <p>
+          B - CONNECTED no estructura, asesora o realiza estudios, ni interviene en las negociaciones realizadas entre las partes conectadas, estas son de responsabilidad y competencia entre las partes.
+        </p>
+        <p>
+          Para mayor información puede contactarse con nosotros al mail: <a href='mailto:info@b-connected.co'>info@b-connected.co</a>
+        </p>
+      </div>
     </Layout>
   )
 }

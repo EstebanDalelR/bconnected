@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import ResponsiveMenu from 'react-responsive-navbar';
+import ResponsiveMenu from 'react-responsive-navbar'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -34,33 +34,34 @@ export default function NavLinks () {
         }
       `}</style>
       <ResponsiveMenu
-        menuOpenButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' /> }
+        menuOpenButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' />}
         menuCloseButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' />}
-        changeMenuOn="600px"
-        menu={<>
-        <Link href='/'>
-          <a style={{ flexGrow: 2, padding: '2px', alignSelf:"left" }}>
-            <img src='static/images/logoHorizontalWhite.png' height='50px' />
-          </a>
-        </Link>
-        <Link href='/'>
-          <div><a style={linkStyle}>Inicio</a> </div>
-        </Link>
-        <Link href='/portafolio'>
-          <div><a style={linkStyle}>Portafolio</a> </div>
-        </Link>
-        <Link href='/modeloDeNegocio'>
-          <div><a style={linkStyle}>Modelo de Negocio</a> </div>
-        </Link>
-        <Link href='/empresas'>
-          <div><a style={linkStyle}>Empresas</a> </div>
-        </Link>
-        <Link href='/fondeadores'>
-          <div><a style={linkStyle}>Fondeadores</a> </div>
-        </Link>
-        <div><a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a> </div>
-      </>
-      }
+        changeMenuOn='600px'
+        menu={
+        <>
+          <Link href='/'>
+            <a style={{ flexGrow: 2, padding: '2px', alignSelf: 'left' }}>
+              <img src='static/images/logoHorizontalWhite.png' height='50px' />
+            </a>
+          </Link>
+          <Link href='/'>
+            <div><a style={linkStyle}>Inicio</a> </div>
+          </Link>
+          <Link href='/portafolio'>
+            <div><a style={linkStyle}>Portafolio</a> </div>
+          </Link>
+          <Link href='/modeloDeNegocio'>
+            <div><a style={linkStyle}>Modelo de Negocio</a> </div>
+          </Link>
+          <Link href='/empresas'>
+            <div><a style={linkStyle}>Empresas</a> </div>
+          </Link>
+          <Link href='/fondeadores'>
+            <div><a style={linkStyle}>Fondeadores</a> </div>
+          </Link>
+          <div><a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a> </div>
+        </>
+        }
       />
     </>
   )

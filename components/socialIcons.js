@@ -36,7 +36,7 @@ export default function SocialIcons () {
         </a>
       </div>
       <div className='privacy'>
-        <Link href="/politicaDePrivacidad">
+        <Link href='/politicaDePrivacidad'>
           <a>
           Política de Privacidad
           </a>
