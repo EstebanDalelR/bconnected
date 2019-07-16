@@ -34,7 +34,7 @@ export default function NavLinks () {
         }
         @media screen and (max-width: 600px) {
           div {
-            display: inline-block
+            display: block
           }
           .navLogo {
             display: none;
