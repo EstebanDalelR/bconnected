@@ -19,10 +19,37 @@ export default function Index () {
           background: black;  
           text-align: center;
         }
+        
+        @media screen and (max-width: 600px) {
+          .portafolioLink {
+            background-image: url(static/images/mobile/portafolioLink.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: auto;    
+            padding: 1%;
+            height: 200px;
+          }
+
+        }
+        @media screen and (min-width: 600px) {  
+          .portafolioLink {
+            background-image: url(static/images/web/portfolio.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: cover;
+            background-attachment: scroll;  
+            overflow: auto;
+            height: 450px;
+            padding: 1%
+          }
+          .contentHolder {
+            min-height: 400px;
+          }
+        }
       `}</style>
       <Link href='/portafolio'>
         <a>
-          <img src='static/images/web/portfolio.png' width='100%' />
+          <div className='portafolioLink' />
         </a>
       </Link>
     </Layout>
