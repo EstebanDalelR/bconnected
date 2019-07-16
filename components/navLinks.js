@@ -16,8 +16,6 @@ export default function NavLinks () {
       @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
         div {
           background: black;
-          display: flex;
-          justify-content: flex-end;
         }
         a {
           text-decoration: none;
@@ -29,13 +27,15 @@ export default function NavLinks () {
         }
         @media screen and (min-width: 600px) {
           div {
-            display: inline-block
+            display: flex;
+            justify-content: space-around;
+          }
+          .logoholder {
+            display: flex;
+            justify-content: start;
           }
         }
         @media screen and (max-width: 600px) {
-          div {
-            display: block
-          }
           .navLogo {
             display: none;
           }
@@ -64,29 +64,29 @@ export default function NavLinks () {
         }
         changeMenuOn='600px'
         menu={
-        <>
-          <Link href='/'>
-            <a style={{ flexGrow: 2, padding: '2px', alignSelf: 'left' }}>
-              <img className='navLogo' src='static/images/logoHorizontalWhite.png' height='50px' />
-            </a>
-          </Link>
-          <Link href='/'>
-            <div><a style={linkStyle}>Inicio</a> </div>
-          </Link>
-          <Link href='/portafolio'>
-            <div><a style={linkStyle}>Portafolio</a> </div>
-          </Link>
-          <Link href='/modeloDeNegocio'>
-            <div><a style={linkStyle}>Modelo de Negocio</a> </div>
-          </Link>
-          <Link href='/empresas'>
-            <div><a style={linkStyle}>Empresas</a> </div>
-          </Link>
-          <Link href='/fondeadores'>
-            <div><a style={linkStyle}>Fondeadores</a> </div>
-          </Link>
-          <div><a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a> </div>
-        </>
+          <div className='menu'>
+            <Link href='/'>
+              <a className='logoholder' style={{ flexGrow: 2, padding: '2px', alignSelf: 'left' }}>
+                <img className='navLogo' src='static/images/logoHorizontalWhite.png' height='50px' />
+              </a>
+            </Link>
+            <Link href='/'>
+              <div><a style={linkStyle}>Inicio</a> </div>
+            </Link>
+            <Link href='/portafolio'>
+              <div><a style={linkStyle}>Portafolio</a> </div>
+            </Link>
+            <Link href='/modeloDeNegocio'>
+              <div><a style={linkStyle}>Modelo de Negocio</a> </div>
+            </Link>
+            <Link href='/empresas'>
+              <div><a style={linkStyle}>Empresas</a> </div>
+            </Link>
+            <Link href='/fondeadores'>
+              <div><a style={linkStyle}>Fondeadores</a> </div>
+            </Link>
+            <div><a href='mailto:info@b-connected.co' style={linkStyle}>Contáctenos</a> </div>
+          </div>
         }
       />
     </>
