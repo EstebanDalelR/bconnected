@@ -32,16 +32,42 @@ export default function NavLinks () {
             display: inline-block
           }
         }
+        @media screen and (max-width: 600px) {
+          div {
+            display: inline-block
+          }
+          .navLogo {
+            display: none;
+          }
+        }
       `}</style>
       <ResponsiveMenu
-        menuOpenButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' />}
-        menuCloseButton={<FontAwesomeIcon icon={faBars} color='white' size='3x' />}
+        menuOpenButton={
+          <>
+            <Link href='/'>
+              <a style={{ flexGrow: 2, padding: '2px', alignSelf: 'left' }}>
+                <img src='static/images/logoHorizontalWhite.png' height='50px' />
+              </a>
+            </Link>
+            <FontAwesomeIcon icon={faBars} color='white' size='3x' />
+          </>
+        }
+        menuCloseButton={
+          <>
+            <Link href='/'>
+              <a style={{ flexGrow: 2, padding: '2px', alignSelf: 'left' }}>
+                <img src='static/images/logoHorizontalWhite.png' height='50px' />
+              </a>
+            </Link>
+            <FontAwesomeIcon icon={faBars} color='white' size='3x' />
+          </>
+        }
         changeMenuOn='600px'
         menu={
         <>
           <Link href='/'>
             <a style={{ flexGrow: 2, padding: '2px', alignSelf: 'left' }}>
-              <img src='static/images/logoHorizontalWhite.png' height='50px' />
+              <img className='navLogo' src='static/images/logoHorizontalWhite.png' height='50px' />
             </a>
           </Link>
           <Link href='/'>
