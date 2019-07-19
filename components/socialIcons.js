@@ -43,6 +43,13 @@ export default function SocialIcons () {
         </Link>
       </div>
       <div className='privacy'>
+        <a href='https://m.me/410423266231075'>
+          <a>
+          Escríbanos por Facebook
+          </a>
+        </a>
+      </div>
+      <div className='privacy'>
         <p>
         B-Connected. Todos los Derechos reservados.
         </p>
