@@ -49,7 +49,7 @@ export default function fondeadores () {
         </p>
         <p>
           Todos los negocios en nuestro portafolio están brevemente resumidos y si desea mayor información puede solicitarla respondiendo nuestros correos o al mail info@b-connected.co con el nombre del proyecto del cual desea mayor información.
-          Este será respondido con información mas detallada de la oportunidad y nuestro documento de indemnidad. Para agendar una reunión con los dueños del proyecto debe enviar el documento ( Adjunto PROXIMAMENTE  ) y horarios de disponibilidad de agenda.
+          Este será respondido con información mas detallada de la oportunidad y nuestro documento de indemnidad. Para agendar una reunión con los dueños del proyecto debe enviar el documento (<a href='static/files/INDEMNIDAD.docx' download>descargar</a>) y horarios de disponibilidad de agenda.
         </p>
         <p>
           Lo invitamos a suscribirse a nuestra base de datos y descargar el portafolio en el <Link href='portafolio'><a>este link</a></Link> donde encontrará toda la información mes a mes de los mejores negocios.

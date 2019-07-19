@@ -80,7 +80,7 @@ export default function Empresas () {
       Camara de comercio y composición accionaria o en caso de actuar como persona natural fotocopia de la cedula de ciudadanía
           </li>
           <li>
-      Contrato corretaje firmado (Adjunto)
+      Contrato corretaje firmado (<a href='static/files/Contrato de Corretaje  B CONNECTED SAS.doc' download>descargar</a>)
           </li>
           <li>
       Datos de contacto (dirección oficina, Correo electrónico , Numeros de teléfono)
