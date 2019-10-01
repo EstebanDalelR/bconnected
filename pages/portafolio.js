@@ -91,7 +91,7 @@ export default function Portafolio () {
           <button onClick={sendData} disabled={!acceptTerms}>Enviar</button>
         </div>
       </div>
-      <a href='static/pdf/PortafolioBConnectedSEP19.pdf' download id='downloadPortfolio'>
+      <a href='static/pdf/PortafolioBConnectedOCT19.pdf' download id='downloadPortfolio'>
         <Jumbotron image='web/portfolio.png' />
       </a>
     </Layout>
