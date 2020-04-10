@@ -24,3 +24,8 @@ h4 {
     cursor: pointer;
     font-size: 20px;
 }
+
+.link-url {
+    color: #feb41c !important;
+    text-decoration: underline;
+}

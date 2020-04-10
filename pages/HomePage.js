@@ -245,7 +245,7 @@ const HomePage = () => {
                                                 <i className="icon icon-pencil"></i>
                                             </div>
                                             <div className="title">
-                                                <a href="#">ontrato corretaje firmado (descargar).</a>
+                                                <a href='static/files/Contrato de Corretaje  B CONNECTED SAS.doc' download>Contrato corretaje firmado, puedes obtener una copia <span className="link-url">aquí</span>.</a>
                                             </div>
                                         </li>
                                         <li>
@@ -283,18 +283,17 @@ const HomePage = () => {
                                 
                                     <div className="col-sm-6 no-pad-left feature">
                                         <p>
-                                            Todos los negocios en nuestro portafolio están brevemente resumidos y si desea mayor información puede solicitarla respondiendo nuestros correos o al mail info@b-connected.co con el nombre del proyecto del cual desea mayor información. Este será respondido con información mas detallada de la oportunidad y nuestro documento de indemnidad. Para agendar una reunión con los dueños del proyecto debe enviar el documento (descargar) y horarios de disponibilidad de agenda.
+                                            Todos los negocios en nuestro portafolio están brevemente resumidos y si desea mayor información puede solicitarla respondiendo nuestros correos o al mail info@b-connected.co con el nombre del proyecto del cual desea mayor información. Este será respondido con información mas detallada de la oportunidad y nuestro documento de indemnidad. Para agendar una reunión con los dueños del proyecto debe enviar el <a href='static/files/INDEMNIDAD.docx' className="link-url" download>documento</a> y horarios de disponibilidad de agenda.
+                                        </p>
+                                    </div>
+                                    <div className="col-sm-6 no-pad-left feature">
+                                        <p>
+                                            B-CONNECTED se limitara a poner en contacto las partes y no intervendrá en los estudios, negociaciones, contratos, riesgos y garantías entre las partes presentadas. Confiamos plenamente en los negocios presentados pero no asumimos ninguna responsabilidad por el resultado de estos. Recomendamos que cada fondeador realice el estudio que considere necesario.
                                         </p>
                                     </div>
                                     <div className="col-sm-6 no-pad-left feature">
                                         <p>
                                             Lo invitamos a suscribirse a nuestra base de datos y descargar el portafolio en el este link donde encontrará toda la información mes a mes de los mejores negocios.
-                                        </p>
-                                    </div>
-                                
-                                    <div className="col-sm-6 no-pad-left feature">
-                                        <p>
-                                            B- CONNECTED se limitara a poner en contacto las partes y no intervendrá en los estudios, negociaciones, contratos, riesgos y garantías entre las partes presentadas. Confiamos plenamente en los negocios presentados pero no asumimos ninguna responsabilidad por el resultado de estos. Recomendamos que cada fondeador realice el estudio que considere necesario.
                                         </p>
                                     </div>
                                 </div>
