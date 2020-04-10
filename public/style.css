@@ -13,3 +13,14 @@
 h4 {
     margin-bottom: 48px !important;
 }
+
+.label-text-conditions {
+    justify-content: center;
+    display: flex;
+    align-items: end;
+}
+
+.icon-check-label {
+    cursor: pointer;
+    font-size: 20px;
+}
