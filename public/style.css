@@ -1,0 +1,15 @@
+.debug {
+    background-color: blue;
+    height: 100vh;
+}
+
+/* TOP-BAR */
+.top-bar .logo {
+    max-width: 100px;
+    position: relative;
+    bottom: 0px;
+}
+
+h4 {
+    margin-bottom: 48px !important;
+}

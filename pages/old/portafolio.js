@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import fetch from 'isomorphic-fetch'
 
-import Layout from '../components/MyLayout.js'
-import Jumbotron from '../components/Jumbotron.js'
+import Layout from '../../components/old/MyLayout.js'
+import Jumbotron from '../../components/old/Jumbotron.js'
 export default function Portafolio () {
   const [personName, setPersonName] = useState('')
   const [personMail, setPersonMail] = useState('')

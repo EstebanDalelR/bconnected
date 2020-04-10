@@ -1,5 +1,5 @@
-import Layout from '../components/MyLayout.js'
-import Jumbotron from '../components/Jumbotron.js'
+import Layout from '../../components/old/MyLayout.js'
+import Jumbotron from '../../components/old/Jumbotron.js'
 
 export default function PoliticaDePrivacidad () {
   return (
