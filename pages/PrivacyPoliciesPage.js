@@ -2,16 +2,10 @@ import React from 'react';
 
 // Next Components
 import AppHead from '../components/AppHead';
-import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 import AppFooter from '../components/AppFooter';
-import ModelBusiness from '../components/ModelBusiness';
-import ContactUs from '../components/ContactUs';
-import Location from '../components/Location';
-import Fonders from '../components/Fonders';
-import Business from '../components/Business';
 
-const HomePage = () => {
+const PrivacyPoliciesPage = () => {
     return (
         <>
             <AppHead />
@@ -25,20 +19,8 @@ const HomePage = () => {
                 {/* <!-- ========================================= --> */}
                 <div className="main-container" id="inicio">
 
-                    <Header />
+                    <p>Estas serian las politicas</p>
 
-                    <ModelBusiness />
-
-                    <ContactUs />
-                    
-                    <Business />
-
-
-                    <Fonders />
-
-
-                    <Location />
-                
                 </div>
 
 
@@ -65,4 +47,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default PrivacyPoliciesPage;
