@@ -33,3 +33,13 @@ h4 {
     color: #feb41c !important;
     text-decoration: underline;
 }
+
+.policy-header {
+    padding-top: 10%;
+}
+
+@media only screen and (max-width: 400px) {
+  .policy-header {
+        padding-top: 25%;
+    }
+}

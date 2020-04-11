@@ -12,7 +12,7 @@ const AppFooter = () => {
                         <div className="col-md-10 col-sm-12 col-xs-12">
                             <span className="sub">B-Connected. Todos los Derechos reservados.</span>
                             <ul>
-                                <li><a href="/politicaDePrivacidad">Politicas de privacidad</a></li>
+                                <li><a href="/privacypoliciespage">Politicas de privacidad</a></li>
                                 <li><a href="tel:+0317456335">Teléfono: 7456335</a></li>
                             </ul>
                         </div>
