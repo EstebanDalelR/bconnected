@@ -4,8 +4,12 @@
 }
 
 /* TOP-BAR */
+.top-bar {
+    background: inherit;
+}
+
 .top-bar .logo {
-    max-width: 120px;
+    max-width: 240px;
     position: relative;
     bottom: 0px;
 }
