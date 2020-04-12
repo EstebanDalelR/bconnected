@@ -38,8 +38,41 @@ h4 {
     padding-top: 10%;
 }
 
+.img-viewon-web {
+    display: block;
+}
+
+.img-viewon-mobile {
+    display: none;
+}
+
+
 @media only screen and (max-width: 400px) {
-  .policy-header {
+    .policy-header {
         padding-top: 25%;
+    }
+
+    .img-viewon-web {
+        display: none !important;
+    }
+
+    .img-viewon-mobile {
+        display: block !important;
+    }
+
+    .background-image-holder.parallax-background {
+        top: -5% !important;
+    }
+
+    .padding-top-20 {
+        padding-top: 20px;
+    }
+
+    .feature-box {
+        min-height: 200px !important;
+    }
+
+    .feature-box .background-image-holder {
+        width: 125% !important;
     }
 }

@@ -11,7 +11,7 @@ const NavBar = () => {
                     <div className="row nav-menu">
                         <div className="col-sm-3 col-md-2 columns">
                             <a href="/">
-                                <img className="logo" alt="Logo" src="/images/logoHorizontalWhite.png" />
+                                <img className="logo logo-light" alt="Logo" src="/images/logoHorizontalWhite.png" />
                             </a>
                         </div>
 

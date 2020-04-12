@@ -6,10 +6,11 @@ const Header = () => {
     return (
         <header className="signup">
             <div className="background-image-holder parallax-background">
-                <img className="background-image" alt="Background Image" src="/img/hero16.jpg" />
+                <img className="background-image img-viewon-web" alt="Background Image" src="/images/PortadaWeb.png" />
+                <img className="background-image img-viewon-mobile" alt="Background Image" src="/images/PortadaCelular.png" />
             </div>
 
-            <div className="container">
+            <div className="container padding-top-20">
                 <div className="row">
                     <div className="col-md-10 col-md-offset-1 col-sm-12 text-center">
                         <h1 className="text-white">Somos los mejores <strong>Conectando</strong><br />Oportunidades de negocio</h1>
