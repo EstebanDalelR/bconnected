@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 const NavBar = ({hideIcon = true}) => {
     return (
         <div className="nav-container">
-            <nav className={`top-bar ${hideIcon ? 'overlay-bar' : ''}`}>
+            <nav className="top-bar overlay-bar">
                 <div className="container">
 
                     {/* <!--end of row--> */}
                     <div className="row nav-menu">
                         <div className="col-sm-3 col-md-2 columns">
                             <a href="/">
-                                <img className="logo logo-light" alt="Logo" src="/images/logoHorizontalWhite.png" />
+                                <img className={`logo ${hideIcon ? 'logo-light' : ''}`} alt="Logo" src="/images/logoHorizontalWhite.png" />
                             </a>
                         </div>
 
