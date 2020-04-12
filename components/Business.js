@@ -106,7 +106,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href='static/files/Contrato de Corretaje  B CONNECTED SAS.doc' download>Contrato corretaje firmado, puedes obtener una copia <span className="link-url">aquí</span>.</a>
+                                        <a href='static/files/Contrato_de_Corretaje_BCONNECTED_SAS.doc' download>Contrato corretaje firmado, puedes obtener una copia <span className="link-url">aquí</span>.</a>
                                     </div>
                                 </li>
                                 <li>
