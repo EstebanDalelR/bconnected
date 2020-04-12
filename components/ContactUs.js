@@ -8,7 +8,7 @@ const ContactUs = () => {
 
                 <div className="feature-box">
 
-                    <div className="background-image-holder overlay">
+                    <div className="background-image-holder overlay imagen-ajuste">
                         <img className="background-image" alt="Background Image" src="/images/Web1.png" />
                     </div>
 
@@ -27,7 +27,7 @@ const ContactUs = () => {
 
                 <div className="feature-box">
 
-                    <div className="background-image-holder overlay">
+                    <div className="background-image-holder overlay imagen-ajuste">
                         <img className="background-image" alt="Background Image" src="/images/Web2.png" />
                     </div>
 

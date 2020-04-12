@@ -18,6 +18,10 @@ h4 {
     margin-bottom: 48px !important;
 }
 
+.imagen-ajuste {
+    top: -19% !important;
+}
+
 .label-text-conditions {
     justify-content: center;
     display: flex;
@@ -74,5 +78,19 @@ h4 {
 
     .feature-box .background-image-holder {
         width: 125% !important;
+    }
+
+    .imagen-ajuste {
+        left: -25% !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .feature-box .background-image-holder {
+        width: 138% !important;
+    }
+
+    .imagen-ajuste {
+        left: -37% !important;
     }
 }

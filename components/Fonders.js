@@ -9,7 +9,7 @@ const Fonders = () => {
                 <div className="row">
 
                     <div className="col-md-12 col-sm-12 content clearfix text-center">
-                        <h1>Política de B-CONNECTED para Fondeadores.</h1>
+                        <h1><strong>Política de B-CONNECTED para Fondeadores.</strong></h1>
                         <div className="col-sm-12 no-pad-left feature">
                             <p>
                                 En B-CONNECTED aclaramos que no prestamos ningún tipo de asesoría, estructuración o servicio a los interesados en fondear los negocios adjuntos en el portafolio y por ende no hay ningún cobro ni responsabilidad por parte de nosotros hacia ustedes.
