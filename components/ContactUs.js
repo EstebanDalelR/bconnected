@@ -32,9 +32,9 @@ const ContactUs = () => {
                     </div>
 
                     <div className="inner">
-                        <h1 className="text-white">Nuestro Protafolios.</h1>
+                        <h1 className="text-white">Nuestro Portafolios.</h1>
                         <p className="text-white">
-                            Tenemos un portafolios extenso con servicios y clientes que esperan por contacto contigo,
+                            Descarga nuestro portafolio de negocios y conoce las mejores oportunidades de negocio.
                         </p>
                         <a className="btn btn-primary btn-white" href='static/pdf/PortafolioBConnectedENE20.pdf' download id='downloadPortfolio'>Descargar</a>
                     </div>

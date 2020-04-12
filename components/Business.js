@@ -10,8 +10,8 @@ const Business = () => {
                             {/* <span className="sub alt-font">full service digital agency</span> */}
                             <h1><strong>Politica de B-CONNECTED para Negocios</strong></h1>
                             <p className="lead">
-                                En B-CONNECTED aclaramos que no prestamos ningún tipo de asesoría o estructuración a empresas, únicamente los conectamos con posibles fondeadores para el desarrollo de negocios propuestos por ellos y en dado caso se concrete un negocio por la conexión B- CONNECTED cobrara el fee descrito en le contrato ( Adjunto PROXIMAMENTE )
-							        </p>
+                                En B-CONNECTED aclaramos que no prestamos ningún tipo de asesoría o estructuración a empresas, únicamente los conectamos con posibles fondeadores para el desarrollo de negocios propuestos por ellos y en dado caso se concrete un negocio por la conexión B-CONNECTED cobrará el fee descrito en el contrato.
+                            </p>
                         </div>
                     </div>
                     {/* <!--end of row--> */}
@@ -34,7 +34,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Desarrollar un actividad 100 % legal sin vicios ocultos.</a>
+                                        <a href="#">Desarrollar un actividad 100 % legal.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -42,7 +42,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">No solicitar un cupo de fondeo superior al 50 % de sus PATRIMONIO.</a>
+                                        <a href="#">Tener un mínimo de ventas de 1.500 Millones de Pesos Colombianos.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -50,7 +50,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">No tener más de 10 contratos suscritos como deuda o fondeadores externos.</a>
+                                        <a href="#">Tener un patrimonio mayor a 500 millones de Pesos Colombianos.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -58,7 +58,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Tener ventas (No conseguimos fondeo a proyectos sin respaldo en ventas).</a>
+                                        <a href="#">Tener Garantías tales como (Facturas, Contratos, Derechos Economicos, Fiduciarios, Inventarios, Activos Fijos, Propiedades finca raiz).</a>
                                     </div>
                                 </li>
                                 <li>
@@ -66,15 +66,30 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Que ninguno de sus socios este vinculado con las listas SARLAFT ni en ninguna actividad ilegal.</a>
+                                        <a href="#">En lo posible no tener reportes en Datacrédito o Haberlas saneado.</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i className="icon icon-pencil"></i>
+                                    </div>
+                                    <div className="title">
+                                        <a href="#">Que ninguno de sus socios esté vinculado con las listas SARLAFT ni en ninguna actividad ilegal.</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i className="icon icon-pencil"></i>
+                                    </div>
+                                    <div className="title">
+                                        <a href="#">Que sus socios tengan suficiente arraigo económico para ser solidarios a las deudas o responder a los contrato que se realicen.</a>
                                     </div>
                                 </li>
                             </ul>
-
                         </div>
 
                         <div className="col-md-6 content col-sm-12 clearfix">
-                            <h4 className="subtitle-margin">Para solicitar el ingreso a nuestro portafolio debe enviar un correo electrónico a ( Correo) con los siguientes datos:</h4>
+                            <h4 className="subtitle-margin">Para solicitar el ingreso a nuestro portafolio debe enviar un correo electrónico a <a href="mailto:info@b-connected.co">info@b-connected.co</a> con los siguientes datos:</h4>
 
                             <ul className="blog-snippet-2">
                                 <li>
@@ -90,7 +105,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Estados financieros a corte más reciente.</a>
+                                        <a href="#">Estados financieros de los últimos 3 años y parciales del año en curso.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -98,7 +113,15 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Camara de comercio y composición accionaria o en caso de actuar como persona natural fotocopia de la cedula de ciudadanía.</a>
+                                        <a href="#">Cámara de comercio y composición accionaria.</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i className="icon icon-pencil"></i>
+                                    </div>
+                                    <div className="title">
+                                        <a href="#">RUT y Declaraciones de renta de los últimos 3 años.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -114,7 +137,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Datos de contacto (dirección oficina, Correo electrónico , Numeros de teléfono).</a>
+                                        <a href="#">Datos de contacto (dirección oficina, Correo electrónico , Números de teléfono).</a>
                                     </div>
                                 </li>
                             </ul>

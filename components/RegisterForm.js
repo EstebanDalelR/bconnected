@@ -53,7 +53,7 @@ const RegisterForm = () => {
 
                 <div className="col-md-12 col-md-offset-0 col-sm-4 col-sm-offset-4 text-center">
                     <div className="text-white label-text-conditions">
-                        Acepto la política de uso de datos &#32;
+                        <a href="/PrivacyPoliciesPage" className="text-white">Acepto la política de uso de datos</a> &#32;
                         <label className="icon-check-label">
                             <i className={`icon ${acceptTerms ? 'icon_circle-slelected' : 'icon_circle-empty'}`}></i>
                             <input

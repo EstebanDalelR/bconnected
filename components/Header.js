@@ -13,7 +13,7 @@ const Header = () => {
             <div className="container padding-top-20">
                 <div className="row">
                     <div className="col-md-10 col-md-offset-1 col-sm-12 text-center">
-                        <h1 className="text-white">Somos los mejores <strong>Conectando</strong><br />Oportunidades de negocio</h1>
+                        <h1 className="text-white">Dejanos tu mail y conoce las Mejores Oportunidades de negocio</h1>
                     </div>
                 </div>
                 {/* <!--end of row--> */}
