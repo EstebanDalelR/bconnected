@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-const NavBar = () => {
+const NavBar = ({hideIcon = true}) => {
     return (
         <div className="nav-container">
-            <nav className="top-bar overlay-bar">
+            <nav className={`top-bar ${hideIcon ? 'overlay-bar' : ''}`}>
                 <div className="container">
 
                     {/* <!--end of row--> */}
@@ -48,7 +48,7 @@ const NavBar = () => {
 }
 
 NavBar.propTypes = {
-
+    hideIcon: PropTypes.bool,
 };
 
 export default NavBar;

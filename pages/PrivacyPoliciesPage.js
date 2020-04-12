@@ -12,7 +12,7 @@ const PrivacyPoliciesPage = () => {
 
             <aside>
 
-                <NavBar />
+                <NavBar hideIcon={true} />
 
                 {/* <!-- ========================================= --> */}
                 {/* <!-- Content --> */}
