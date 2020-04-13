@@ -8,7 +8,7 @@ const Business = () => {
                     <div className="row">
                         <div className="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
                             {/* <span className="sub alt-font">full service digital agency</span> */}
-                            <h1><strong>Politica de B-CONNECTED para Negocios</strong></h1>
+                            <h1><strong>Política de B-CONNECTED para Negocios</strong></h1>
                             <p className="lead">
                                 En B-CONNECTED aclaramos que no prestamos ningún tipo de asesoría o estructuración a empresas, únicamente los conectamos con posibles fondeadores para el desarrollo de negocios propuestos por ellos y en dado caso se concrete un negocio por la conexión B-CONNECTED cobrará el fee descrito en el contrato.
                             </p>
@@ -34,7 +34,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Desarrollar un actividad 100 % legal.</a>
+                                        <a>Desarrollar un actividad 100 % legal.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -42,7 +42,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Tener un mínimo de ventas de 1.500 Millones de Pesos Colombianos.</a>
+                                        <a>Tener un mínimo de ventas de 1.500 Millones de Pesos Colombianos.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -50,7 +50,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Tener un patrimonio mayor a 500 millones de Pesos Colombianos.</a>
+                                        <a>Tener un patrimonio mayor a 500 millones de Pesos Colombianos.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -58,7 +58,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Tener Garantías tales como (Facturas, Contratos, Derechos Economicos, Fiduciarios, Inventarios, Activos Fijos, Propiedades finca raiz).</a>
+                                        <a>Tener Garantías tales como (Facturas, Contratos, Derechos Economicos, Fiduciarios, Inventarios, Activos Fijos, Propiedades finca raiz).</a>
                                     </div>
                                 </li>
                                 <li>
@@ -66,7 +66,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">En lo posible no tener reportes en Datacrédito o Haberlas saneado.</a>
+                                        <a>En lo posible no tener reportes en Datacrédito o Haberlas saneado.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -74,7 +74,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Que ninguno de sus socios esté vinculado con las listas SARLAFT ni en ninguna actividad ilegal.</a>
+                                        <a>Que ninguno de sus socios esté vinculado con las listas SARLAFT ni en ninguna actividad ilegal.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -82,7 +82,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Que sus socios tengan suficiente arraigo económico para ser solidarios a las deudas o responder a los contrato que se realicen.</a>
+                                        <a>Que sus socios tengan suficiente arraigo económico para ser solidarios a las deudas o responder a los contrato que se realicen.</a>
                                     </div>
                                 </li>
                             </ul>
@@ -97,7 +97,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Teaser (Resumen de la oportunidad de negocio).</a>
+                                        <a>Teaser (Resumen de la oportunidad de negocio).</a>
                                     </div>
                                 </li>
                                 <li>
@@ -105,7 +105,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Estados financieros de los últimos 3 años y parciales del año en curso.</a>
+                                        <a>Estados financieros de los últimos 3 años y parciales del año en curso.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -113,7 +113,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Cámara de comercio y composición accionaria.</a>
+                                        <a>Cámara de comercio y composición accionaria.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -121,7 +121,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">RUT y Declaraciones de renta de los últimos 3 años.</a>
+                                        <a>RUT y Declaraciones de renta de los últimos 3 años.</a>
                                     </div>
                                 </li>
                                 <li>
@@ -137,7 +137,7 @@ const Business = () => {
                                         <i className="icon icon-pencil"></i>
                                     </div>
                                     <div className="title">
-                                        <a href="#">Datos de contacto (dirección oficina, Correo electrónico , Números de teléfono).</a>
+                                        <a>Datos de contacto (dirección oficina, Correo electrónico , Números de teléfono).</a>
                                     </div>
                                 </li>
                             </ul>

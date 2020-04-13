@@ -8,6 +8,11 @@
     background: inherit;
 }
 
+/* .background-image-holder.parallax-background img {
+    display: flex;
+    justify-content: center;
+} */
+
 .top-bar .logo {
     max-width: 300px;
     position: relative;
@@ -20,7 +25,7 @@ h4 {
 
 .imagen-ajuste {
     top: -19% !important;
-}
+}    
 
 .label-text-conditions {
     justify-content: center;
@@ -50,6 +55,13 @@ h4 {
     display: none;
 }
 
+@media only screen and (min-width: 1500px) {
+
+    .background-image-holder.parallax-background img {
+        width: 100% !important;
+    }
+
+}
 
 @media only screen and (max-width: 500px) {
     .policy-header {

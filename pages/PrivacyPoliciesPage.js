@@ -40,7 +40,7 @@ const PrivacyPoliciesPage = () => {
                                 <li className="clearfix active">
                                     <div className="row">
                                         <div className="col-sm-12 text-center">
-                                            <h1>Politicas de privacidad</h1>
+                                            <h1>Políticas de privacidad</h1>
                                         </div>
                                     </div>
                                     {/* <!--end of row--> */}
