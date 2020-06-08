@@ -36,7 +36,7 @@ const ContactUs = () => {
                         <p className="text-white">
                             Descarga nuestro portafolio de negocios y conoce las mejores oportunidades de negocio.
                         </p>
-                        <a className="btn btn-primary btn-white" href='static/pdf/PortafolioBConnectedMAY20.pdf' download id='downloadPortfolio'>Descargar</a>
+                        <a className="btn btn-primary btn-white" href='static/pdf/PortafolioBConnectedJUN20.pdf' download id='downloadPortfolio'>Descargar</a>
                     </div>
                 </div>
             </div>
